@@ -1,0 +1,19 @@
+Use supplied make file to compile on Solaris/Linux
+For Q8 use <OS>Q# so "make solrisQ8", for Q9, "make linuxQ9" and for q10 "make linuxQ10" etc.
+
+To remove compiled files use "make clean"
+
+Program q8 - File Encoder Q1-Q4
+q8 takes two arguments
+a PGM file to be encoded and a file path to store encoded file
+eg. "./q8 ./picture.pgm ./picture.encoded"
+
+Program q9 - File Decoder Q5-Q6
+q9 takes two arguments
+an encoded file to be decoded and a file path to store decoded file
+eg. "./q8 ./picture.encoded ./picture.decoded"
+
+Program q10 - File Comaprison Q7
+q10 takes two arguments
+two pgm files to compare
+eg. "./q8 ./picture.pgm ./picture2.pgm"

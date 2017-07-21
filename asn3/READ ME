@@ -1,0 +1,8 @@
+READ ME
+For ENCODER
+Use "make encoder" to build the encoder
+Usage: ./asn3e inFile BufferSize outFile
+
+For DECODER
+Use "make decoder" to build the decoder
+Usage: ./asn3d inFile outFile
